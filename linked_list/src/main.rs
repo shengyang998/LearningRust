@@ -36,7 +36,7 @@ impl List {
 fn main() {
     let mut list = List::new();
 
-    for i in 1..=30000 { 
+    for i in 1..=2u32.pow(30) { 
         list = list.prepend(i);
     }
     
